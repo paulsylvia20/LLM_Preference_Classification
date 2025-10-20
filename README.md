@@ -1,4 +1,3 @@
-#### LLM_Preference_Classification
 A submission to the [LLM Classification Finetuning Kaggle competition](https://www.kaggle.com/competitions/llm-classification-finetuning/overview). The implementation utilizes Pytorch and Huggingface to finetune a pretrained RoBERTa LLM for a human preference classification task.
 
 I developed an LLM finetuning of the RoBERTa encoder base model. Training on a Kaggle dataset, I was tasked with retraining the model to classify text pairs based-on how well they answer a query. The result was a model that could distinguish between good and bad responses. In this case, responses were written by LLM’s in response to queries.
